@@ -20,7 +20,7 @@ const Score = () => {
       <Center style={{ height: "70vh" }} gap={5}>
         <Button
           onClick={() => {
-            navigate(-1);
+            navigate("/page1");
           }}
         >
           back
