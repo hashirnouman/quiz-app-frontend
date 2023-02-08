@@ -1,16 +1,10 @@
 import {
   Card,
   CardBody,
-  Text,
   Center,
-  Box,
-  RadioGroup,
-  Radio,
-  Stack,
   Button,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React from "react";
 import { useSelector } from "react-redux";
 const Score = () => {
   const counter = useSelector((state) => state.counter.value);
